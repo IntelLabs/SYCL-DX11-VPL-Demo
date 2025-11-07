@@ -39,7 +39,7 @@ cbuffer ConstantBuffer2 : register(b1) // b1 is the slot to which the buffer is 
 cbuffer ConstantBuffer2 : register(b2) // b2 is the slot to which the buffer is bound in the C++ code
 {
     float zeroPlaneTuning;
-    float centerShit;
+    float centerShift;
 };
 
 float4 main(VertexOut input) : SV_TARGET
