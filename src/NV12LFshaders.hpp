@@ -1,3 +1,8 @@
+//==============================================================================
+// Copyright Intel Corporation
+//
+// SPDX-License-Identifier: Apache-2.0
+//==============================================================================
 #ifndef NV12LFSHADERS_HPP
 #define NV12LFSHADERS_HPP
 

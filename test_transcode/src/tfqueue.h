@@ -1,10 +1,8 @@
-// Copyright 2024 Intel Corp.
-// 
-// Description: Thread-safe fixed size queue
+//==============================================================================
+// Copyright Intel Corporation
 //
-// Source File: tfqueue.h
-//
-//
+// SPDX-License-Identifier: Apache-2.0
+//==============================================================================
 #pragma once
 
 // For sync_queue implementation below

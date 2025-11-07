@@ -1,7 +1,7 @@
 //==============================================================================
 // Copyright Intel Corporation
 //
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 //==============================================================================
 #ifndef SHARED_RESOURCE_HPP
 #define SHARED_RESOURCE_HPP

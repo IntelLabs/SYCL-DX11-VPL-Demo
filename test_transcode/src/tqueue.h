@@ -1,10 +1,8 @@
-// Author: Binoy Marvar, UXR, CIL - 2013-2016
-// 
-// Description: Thread safe queue implementation to buffer frames
+//==============================================================================
+// Copyright Intel Corporation
 //
-// Source File: tqueue.h
-//
-//
+// SPDX-License-Identifier: Apache-2.0
+//==============================================================================
 #pragma once
 
 //For threadsafe_queue implementation below

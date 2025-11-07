@@ -1,7 +1,7 @@
 //==============================================================================
 // Copyright Intel Corporation
 //
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 //==============================================================================
 // exclude min and max macros from windows includes
 #define NOMINMAX

@@ -1,3 +1,9 @@
+//==============================================================================
+// Copyright Intel Corporation
+//
+// SPDX-License-Identifier: Apache-2.0
+//==============================================================================
+
 Texture2D<float> y_in : register(t0);
 Texture2D<float2> uv_in : register(t1);
 RWTexture2D<float4> rgba_out : register(u0);

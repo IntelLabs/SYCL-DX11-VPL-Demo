@@ -1,7 +1,7 @@
 //==============================================================================
 // Copyright Intel Corporation
 //
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 //==============================================================================
 #ifndef RENDERDX11_HPP
 #define RENDERDX11_HPP
