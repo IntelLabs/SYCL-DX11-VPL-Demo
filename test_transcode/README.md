@@ -1,5 +1,5 @@
 # Universal VPL codec wrapper test application
-The app uses VPLCodec class to perform decode, decode-vpp (cropping | scaling) and encode functions by processign multiple video streams in parallem in multiple threads.
+The app uses VPLCodec class to perform decode, decode-vpp (cropping | scaling) and encode functions by processing multiple video streams in parallel in multiple threads.
 
 Building: 
 1. Use CMake in top-level dir to generate sln/vcxproj files (newer vpl version provided in libs directory)
