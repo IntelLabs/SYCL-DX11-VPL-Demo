@@ -7,7 +7,7 @@
 //
 #pragma once
 
-//For threadsafe_queue implementaiton below
+//For threadsafe_queue implementation below
 #include <queue>
 // For sync_queue implementation below
 #include <deque>
