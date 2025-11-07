@@ -164,7 +164,7 @@ HRESULT RenderDX11::CreateRWTexture(ID3D11Texture2D* asTex, void* pInitData, ID3
     desc.Usage = D3D11_USAGE_DEFAULT;
 
     if (pInitData) {
-        UINT elemSize = (desc.Format = DXGI_FORMAT_NV12) ? 1 : 4; //ATTN: either 1 byte or 4 per texel
+        UINT elemSize = (desc.Format == DXGI_FORMAT_NV12) ? 1 : 4; //ATTN: either 1 byte or 4 per texel
         D3D11_SUBRESOURCE_DATA InitData{};
         InitData.pSysMem = pInitData;
         InitData.SysMemPitch = desc.Width * elemSize; //ATTN: elemSize
