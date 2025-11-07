@@ -16,7 +16,7 @@ public:
     {
         std::scoped_lock lock(the_mutex);
         the_queue.push(data);
-        lock.unlock();
+        // lock.unlock(); // Removed: std::scoped_lock does not support unlock()
         the_condition_variable.notify_one();
     }
 
