@@ -7,7 +7,7 @@ Building:
 3. Manually configure test_transcode project for DPC++:
 	a) right-click test_transcode and set it to use Intel Compiler 2025
 	b) in test_transcode Properties select All Cofiguartions, and then set Properties->General->Platform toolset to Intel oneAPI DPC++ compiler 2025 (or 2024)
-	c) in Properties window select Debig configuration and set Properties->DPC++->Optimization->Set optimization->Disabled
+	c) in Properties window select Debug configuration and set Properties->DPC++->Optimization->Set optimization->Disabled
 
 Running: The app takes a directory with collections of specifically named jpg or hevc files. Decodes them performing vpp cropping/scaling if requested and encoding resulting frames into jpg or hevc streams (and if requested) storing them to files named output_*.* located in the inout directory.
 The app takes following main parameters:
