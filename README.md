@@ -33,3 +33,7 @@ Running:
 
 Example:  
   ```main.exe --i ..\..\content\quiltB9F-07_4k.hevc```
+
+Controls:
+ p - toggle image processing with SYCL on GPU (sobel edge detection overlayed on top of the source image)
+ ESC - exit
