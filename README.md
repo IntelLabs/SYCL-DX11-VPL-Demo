@@ -1,3 +1,10 @@
+> [!WARNING]
+> **THIS PROJECT IS ARCHIVED**  
+> Intel will not provide or guarantee development of or support for this project,
+> including but not limited to, maintenance, bug fixes, new releases or updates.
+>
+> Patches to this project are no longer accepted by Intel.  
+
 VPL Decode->DPC++ Processing-> DX11 Render Example Project
 ===
 ![GitHub License](https://img.shields.io/github/license/IntelLabs/SYCL-DX11-VPL-Demo)
